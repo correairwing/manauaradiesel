@@ -4,7 +4,7 @@ import Image from "next/image";
 const Sobre = () => {
     return ( 
         <>
-            <div className="lg:flex">
+            <div className="lg:flex container justify-around items-center">
                 <div className="">
                     <Image src="/oficina-frente.jpg" width={450} height={380}/>
                 </div>

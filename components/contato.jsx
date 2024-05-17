@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Contato = () => {
     return ( 
-        <div className="mt-5">
-            <h3 className="flex justify-center font-bold mb-5">Contato</h3>
+        <div className="mt-5 container">
+            <h3 className="flex justify-center font-bold my-5">Contato</h3>
             <div class="whatsapp-button-container">
                 <Link href="https://wa.me/559281757896?text=Olá%20gostaria%20de%20mais%20informações" class="whatsapp-button" target="_blank">
                     Conversar no WhatsApp
@@ -22,7 +22,7 @@ const Contato = () => {
                 </div>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Contato;

@@ -19,6 +19,14 @@
 
 body {
   
+  .container {
+    @media (min-width: 1024px) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+
+
   .whatsapp-button-container {
     text-align: center;
   }
@@ -28,7 +36,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #25d366;
+    background-color: #215DA2;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -36,7 +44,7 @@ body {
   }
 
   .whatsapp-button:hover {
-    background-color: #1da851; 
+    background-color: #1c4c83; 
   }
 }
 
@@ -82,7 +90,7 @@ body {
       width: 100%;
       padding: 10px;
       margin-top: 15px;
-      background-color: #4CAF50;
+      background-color: #215DA2;
       color: #fff;
       border: none;
       border-radius: 4px;
@@ -91,7 +99,7 @@ body {
   }
   
   button:hover {
-      background-color: #45a049;
+      background-color: #1c4c83;
   }
   }
 }

@@ -10,11 +10,19 @@ export default function Home() {
   return (
     <>
       <Topbar />
-      <Hero />
-      <Sobre />
-      <Servicos />
-      <Local />
-      <Contato />
+      <main>
+        <Hero />
+        <section id="sobre">
+          <Sobre />
+        </section>
+        <section id="servicos">
+          <Servicos />
+        </section>
+        <section id="contato">
+          <Local />
+          <Contato />
+        </section>
+      </main>
       <Footer />
     </>
   );
