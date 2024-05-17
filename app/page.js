@@ -9,10 +9,12 @@ import Topbar from "@/components/topbar";
 export default function Home() {
   return (
     <>
-      <Topbar />
+      <header>
+        <Topbar />
+      </header>
       <main>
         <Hero />
-        <section id="sobre">
+        <section id="sobre"> 
           <Sobre />
         </section>
         <section id="servicos">
