@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-};
-
-export default nextConfig;
+    basePath: process.env.BASE_PATH || "",
+    assetPrefix: process.env.URL || "",
+  };
+  module.exports = nextConfig;
