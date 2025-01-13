@@ -11,7 +11,7 @@ const Contato = () => {
             </div>
             <div className="p-5">
                 <div id="email" class="contact-form-container">
-                    <form action="mailto:ammecanica9@gmail.com" method="post" enctype="text/plain">
+                    <form action="mailto:adm.contato@manauaradiesel.com" method="post" enctype="text/plain">
                         <h2 className="font-semibold">Ou se preferir:</h2>
                         <label for="email">Seu E-mail:</label>
                         <input type="email" id="email" name="email" required />
