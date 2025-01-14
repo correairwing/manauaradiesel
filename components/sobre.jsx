@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 
 const Sobre = () => {
@@ -6,7 +6,7 @@ const Sobre = () => {
         <>
             <div className="lg:flex container justify-around items-center">
                 <div className="">
-                    <Image src="/oficina-frente.jpg" width={450} height={380}/>
+                    <img src="https://manauaradiesel.com.br//oficina-frente.jpg" className="w-full h-full"/>
                 </div>
                 <div className="flex flex-col gap-5 px-5 my-4 text-justify lg:max-w-[740px]">
                     <h4 className="font-bold">Manauara Diesel - Especialistas em Motores Diesel</h4>

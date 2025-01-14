@@ -1,32 +1,26 @@
 import Image from "next/image";
-import ford from '../public/ford.jpg'
-import iveco from '../public/iveco.jpg'
-import mercedes from '../public/mercedes.jpg'
-import scania from '../public/scania.jpg'
-import volks from '../public/volks.jpg'
-import volvo from '../public/volvo.jpg'
 
 const Marcas = () => {
     return ( 
         <div>
             <ul className="flex gap-4 overflow-x-scroll px-5 [&::-webkit-scrollbar]:hidden">
                 <li className="rounded-full">
-                    <Image src={ford}/>
+                    <Image src="https://docs.manauaradiesel.com.br/ford.jpg" width={200} height={200}/>
                 </li>
                 <li>
-                    <Image src={iveco}/>
+                    <Image src="https://docs.manauaradiesel.com.br/iveco.jpg" width={200} height={200}/>
                 </li>
                 <li>
-                    <Image src={mercedes}/>
+                    <Image src="https://docs.manauaradiesel.com.br/mercedes.jpg" width={200} height={200}/>
                 </li>
                 <li>
-                    <Image src={scania}/>
+                    <Image src="https://docs.manauaradiesel.com.br/scania.jpg" width={200} height={200}/>
                 </li>
                 <li>
-                    <Image src={volks}/>
+                    <Image src="https://docs.manauaradiesel.com.br/volks.jpg" width={200} height={200}/>
                 </li>
                 <li>
-                    <Image src={volvo}/>
+                    <Image src="https://docs.manauaradiesel.com.br/volvo.jpg" width={200} height={200}/>
                 </li>
             </ul>
         </div>

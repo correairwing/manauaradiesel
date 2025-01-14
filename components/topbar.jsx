@@ -15,7 +15,7 @@ const Topbar = () => {
             <div className='px-3 w-full gap-4 bg-preto-default'>
                 <div className='container flex justify-between'>
                     <div className='h-[50px] w-[150px] relative'>
-                        <Image src="/logo-menor.png" fill/>
+                        <Image src="https://docs.manauaradiesel.com.br/logo-menor.png" fill/>
                     </div>
                     <div className='flex items-center gap-3 text-yellow-50 font-bold'>
                         <Link href="#sobre" className=''>Sobre</Link>

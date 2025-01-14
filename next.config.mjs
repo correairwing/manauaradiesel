@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    images: {
+        domains: ['docs.manauaradiesel.com.br'],
+        unoptimized: true, 
+      },
     output: "export",
-    basePath: process.env.BASE_PATH || "",
-    assetPrefix: process.env.URL || "",
+    
 };
 
 export default nextConfig;
